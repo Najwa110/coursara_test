@@ -1,154 +1,45 @@
-<!doctype html >
-<html>
+
+
+
+<!Doctype html>
+
+
+ <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title> the menu </title>
-<style> 
-	body 	 { text-align: center; 
-		padding: 25px;
-	}
-	.child-one  { position: absolute;
-		background-color:  pink;
-     height: 4vh;
-		width: 90px;
-		    top: 0;
-		    right: 0;
-		     border: 2px solid black;
-
-		}
-	.parent  { position: relative;
-     display: inline;
-    margin-top: 30px;
-     text-align: justify;
-     letter-spacing: 0,6px;
-      margin-right: auto;
-      margin-left: auto;
-     	margin-bottom: 5px;
-     	width: 32%;
-	 height: 32%;
- 
-     float: left;
-     margin-right: 10px;
-     padding: 30px;
-		     border: 2px solid black;
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="style.css">
+	<title>Responsive Layout</title>
 
 
-		top: 0;
-		left:  0;
-		background-color:pink;
-		
-		}	
-			.parent  { position: relative;
-     display: inline;
-    margin-top: 30px;
-     text-align: justify;
-     letter-spacing: 0,6px;
-      margin-right: auto;
-      margin-left: auto;
-     	margin-bottom: 5px;
-     	width: 32%;
-	 height: 32%;
- 
-     float: left;
-     margin-right: 10px;
-     padding: 30px;
-		     border: 2px solid black;
-
-
-		top: 0;
-		left:  0;
-		background-color:gray;
-		
-		}
-			
-h1{  margin-bottom: 15px;
-padding:45px;
-padding-bottom: 30px; }
-
-
-*{
-box-sizing: border-box;
-
-	}
-
-	
-@media (min-width: 768px)and(max-width: 991px) {
-.parent{ width: 50%;
-}
-.parent{  width: 50%;}
-
-.parent{  width: 100%;}
-}
-
-@media (min-width: 992px) {
-.parent{ width: 32%;
-}
-.parent{  width: 32%;}
-
-.parent{  width: 32%;}
-}
-
-@media (max-width: 767px) {
-.parent{ width: 100%;
-}
-.parent{  width: 100%;}
-
-.parent{  width: 100%;}
-}
-
-
-
-
-
- </style>
 
 </head>
 <body>
+	<div class="row">
+	<h1>Our Menu</h1>
+  <div class="col-lg-4 col-md-6 col-sm-12" id="container">
+    <p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Deserunt ab quia eum possimus debitis illo consequuntur cum impedit! Non hic ratione minus reiciendis esse laboriosam rem fugit, quam ut iure!</p>
+  	<p id="p1">Chicken</p>
 
-	<div class="parent"> lorem ipsum dolor sit amet, consectetur
-adipisicing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat
+  	</div>
 
-   <div class="child-one child"> chicken
-
-  </div>
-
-	</div>
-	<div class="parent"> lorem ipsum dolor sit amet, consectetur
-adipisicing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat
-
-   <div class="child-one child"> beef
-
-  </div>
-
-	</div>
-	<div class="parent"> lorem ipsum dolor sit amet, consectetur
-adipisicing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat
-
-   <div class="child-one child"> sushi
-
-  </div>
-
-	</div>
   
-  
-	<h1 > our menu </h1>
 
+  <div class="col-lg-4 col-md-6 col-sm-12" id="container"><p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Quis, iste, nostrum dignissimos unde officiis doloremque debitis fugit ut! Voluptate odit nam unde harum aliquam aperiam quibusdam quod corrupti provident pariatur!</p>
 
-	
+  	<p id="p2">Beef</p>
+
+  </div>
+
+  <div class="col-lg-4 col-md-12 col-sm-12" id="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, earum omnis natus voluptate, repudiandae inventore molestias eos reprehenderit corrupti nesciunt animi ea obcaecati vero numquam porro quidem? Numquam at, et!</p>
+
+  	<p  id="p3">Sushi</p>
+
+  </div>
+
+	</div>	
 
 </body>
-
 </html>
 
 
